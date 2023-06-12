@@ -1,0 +1,476 @@
+/* //Header css now  */
+.login {
+  color: white;
+  height: 2rem;
+}
+
+.LoginNow {
+  font-family: 'Castoro Titling', cursive;
+  cursor: pointer;
+}
+
+.LoginNow div:nth-child(1) {
+  margin-right: 2rem;
+}
+
+/* ///image grid view */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+  margin: 2rem 0rem;
+}
+
+@media only screen and (max-width: 840px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    margin: 2rem 0rem;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 50px;
+    margin: 2rem 0rem;
+  }
+
+}
+
+.PhotoGrid {
+  height: 13rem;
+  width: 14rem;
+}
+
+.NameOfgrid {
+  font-family: 'Castoro Titling', cursive;
+  margin: 0.5rem 0rem;
+  font-weight: 700;
+}
+
+.OuterWrapper {
+  cursor: pointer;
+  background-color: #f7f6f654;
+  border-radius: 0.4rem;
+  box-shadow: 5px 0px 5px 2px rgb(84, 80, 80);
+}
+
+.mainWrapper {
+  height: 2rem;
+  border: 1px solid;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ea9530;
+  font-weight: 600;
+  color: white;
+}
+
+.innerWrapper {
+  padding-top: 6rem;
+}
+
+.searchBar input {
+  width: 40rem;
+  height: 3rem;
+  border: 1px solid orange;
+  border-radius: 1rem;
+}
+
+@media only screen and (max-width:655px) {
+  .searchBar input {
+    width: 30rem;
+    height: 3rem;
+    border: 1px solid orange;
+    border-radius: 1rem;
+  }
+
+}
+
+@media only screen and (max-width:488px) {
+  .searchBar input {
+    width: 25rem;
+    height: 3rem;
+    border: 1px solid orange;
+    border-radius: 5px;
+  }
+
+}
+
+@media only screen and (max-width:387px) {
+  .searchBar input {
+    width: 20rem;
+    height: 3rem;
+    border: 1px solid orange;
+    border-radius: 8px;
+  }
+
+}
+
+.searchBar {
+  margin: 2rem 0rem;
+}
+
+.searchBar input::placeholder {
+  padding-left: 2rem;
+  font-size: 1.2rem;
+}
+
+.backGroundImage {
+  background-image: url("https://momato-1.web.app/static/media/headerImage2.bec85f60.jpg");
+  background-repeat: no-repeat;
+}
+
+.Heading {
+  margin: 0.5rem 0rem;
+}
+
+.cities {
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.Footer {
+  background-color: black;
+}
+
+.Company div:nth-child(1) {
+  color: white;
+  font-size: 2rem;
+}
+
+.Company ul {
+  list-style: none;
+}
+
+.Company ul>li {
+  color: white;
+  padding: 0.5rem 0rem;
+}
+
+.Company {
+  margin-left: 2.5rem;
+}
+
+.imgOfFooter {
+  width: 200px;
+}
+
+.imgOfFooter>img {
+  width: 100%;
+}
+
+.flexFooter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+
+
+}
+
+.flex div {
+  padding-right: 1rem;
+}
+
+.buttonNow {
+  width: 9rem;
+  height: 3.5rem;
+  border-radius: 1rem;
+  border: 1px solid red;
+  background-color: white;
+  box-shadow: 3px 3px 3px 1px red;
+
+}
+
+.iconsOfScooter {
+  height: 2rem;
+  width: 2rem;
+}
+
+.Pizza {
+  height: 2rem;
+  width: 2rem;
+}
+
+.gridImage {
+  height: 151px;
+  width: 187px;
+
+}
+
+.Gridcontainer {
+  padding: 1rem;
+  border: 8px solid red;
+  border-radius: 0.7rem;
+  background-color: rgb(230, 237, 243);
+  transition-property: height;
+  transition-duration: 0.7s;
+  height: 200px;
+
+}
+
+.Gridcontainer:hover {
+  height: 380px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.inner_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 70px;
+  width: 70%;
+}
+
+.innerGrid {
+  width: 70%;
+}
+
+.hideshow {
+  display: none;
+
+}
+
+.Gridcontainer:hover .hideshow {
+  display: block;
+
+}
+
+.open {
+  color: red;
+}
+
+.hideshow {
+  width: 187px;
+}
+
+.li {
+  list-style: none;
+}
+
+.order {
+  float: right;
+
+}
+
+.order button {
+  border: none;
+  background: red;
+  border-radius: 9px;
+  color: white;
+  width: 6rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.hideshow div {
+  margin: 0.5rem 0rem;
+}
+
+.imgWidth {
+  width: 50%;
+}
+
+
+
+.widthOfImage {
+  width: 100%;
+}
+
+.widthofImagenow {
+  width: 100%;
+}
+
+.secondImage {
+  width: 50%;
+}
+
+.secondDiv {
+  margin-left: 0.5rem;
+}
+
+.iconOfRuppe {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0rem;
+  background-color: #f5f3f34a;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+
+
+}
+
+.flexnow {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex1:hover {
+  box-shadow: 3px 3px 3px 3px rgb(0, 0, 0);
+}
+
+.buttonAdd {
+  width: 6rem;
+  height: 3rem;
+  background: none;
+  border: 3px solid orange;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: orange;
+  cursor: pointer;
+}
+
+.buttonAdd:hover {
+  box-shadow: 2px 2px 2px 2px rgb(130, 127, 127);
+
+}
+
+.outerDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerDiv {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+}
+
+.clickme {
+  width: 9rem;
+  height: 3rem;
+  border-radius: 1rem;
+  border: none;
+  color: white;
+  background: red;
+  font-size: 21px;
+  margin-left: 1rem;
+  cursor: pointer;
+
+}
+
+.clickme1 {
+  width: 9rem;
+  height: 3rem;
+  border-radius: 1rem;
+  border: none;
+  color: white;
+  background: green;
+  font-size: 21px;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.btn {
+  margin-top: 1rem;
+}
+
+.totalnwo {
+  font-size: 2rem;
+  font-weight: 600;
+  color: red;
+}
+
+.cartBtn {
+  border: none;
+  border-radius: 50%;
+  height: 1.3rem;
+  width: 1.3rem;
+  background: #ef1b1b;
+  color: white;
+  float: right;
+  position: relative;
+  left: 12px;
+
+}
+
+.Icon {
+  float: right;
+}
+
+.mainHeightDiv {
+  height: 70vh;
+  overflow-y: scroll;
+}
+
+.MarginHodl {
+  margin-top: 1rem;
+}
+
+.error {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.error div {
+  width: 50%;
+}
+
+.InputCreatia {
+  padding-left: 2rem;
+  border: none;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.WrapperOfOrder {
+  width: 100%;
+  padding: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.congratulation {
+  font-size: 2rem;
+  color: red;
+
+}
+
+.orderItem {
+  font-size: 1.2rem;
+  color: brown;
+}
+
+.Website {
+  font-size: 1.2rem;
+  color: blueviolet;
+}
+
+.ordernow {
+  cursor: pointer;
+}
